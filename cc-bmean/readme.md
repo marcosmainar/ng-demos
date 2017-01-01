@@ -103,7 +103,7 @@ The `app` module depends on feature modules, which use the naming convention `ap
 ### app.* modules
 The `app.*` modules are feature areas for the main app. These all depend on `app.core`.
 
-One example may be `app.orders` which may be a feature area for order information int he app. There may also be `app.layout` which contains all the layout logic for the app, such as login, navbars and menus. There may also be app specific widgets in `app.widgets`.
+One example may be `app.orders` which may be a feature area for order information in the app. There may also be `app.layout` which contains all the layout logic for the app, such as login, navbars and menus. There may also be app specific widgets in `app.widgets`.
 
 ### app.core
 The `app.core` module contains all application specific services and shared code that all (or most) features may require. Thus the `app.*` modules depend on `app.core`.
